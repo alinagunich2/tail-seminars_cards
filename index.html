@@ -9,23 +9,46 @@
 <body class="font-serif">
     <div class="container flex">
         <div class="">
-            <h1>Семинары и вебинары</h1>
+            <h1 class="text-3xl font-bold">Семинары и вебинары</h1>
             <form action="">
-                <div class="">
-                    <input type="text">
-                    <input type="text">
-                    <input type="date">
-                    <div class="">-</div>
-                    <input type="date">
-                    <div class="">
-                        <button>Применить</button>
-                        <button>Сбросить фильтр</button>
+                <div class="mb-4 flex flex-wrap items-center space-x-1 space-y-1">
+                    <div class="w-1/2 lg:w-1/3 py-1 px-3 max-w-72 flex justify-between items-center rounded-md border-1px border-gray-300">
+                        <input class="outline-none" type="text" value="Тематика">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F59E0B" class="w-4 h-4 cursor-pointer">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                          </svg>                          
+                    </div>
+                    <div class="w-1/2 lg:w-1/3 py-1 px-3 max-w-72 flex justify-between items-center rounded-md border-1px border-gray-300">
+                        <input class="outline-none" type="text" value="Формат">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F59E0B" class="w-4 h-4 cursor-pointer">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                          </svg>                          
+                    </div>
+                    <div class="w-1/2 flex items-center space-x-1">
+                        <div class=" py-1 px-3 max-w-32 flex justify-between items-center rounded-md border-1px border-gray-300">
+                            <input class="outline-none w-14" type="text" value="Дата с">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F59E0B" class="w-4 h-4 cursor-pointer">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                              </svg>                                                   
+                        </div>
+                        <div class=" ">-</div>
+                        <div class=" py-1 px-3 max-w-32 flex justify-between items-center rounded-md border-1px border-gray-300">
+                            <input class="outline-none w-14" type="text" value="Дата с">
+                            <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F59E0B" class="w-4 h-4 cursor-pointer">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+                              </svg>                                                   
+                        </div>
                     </div>
                 </div>
+                    <div class="">
+                        <button class="mr-3 py-1 px-4 rounded-xl text-white bg-orange-500 text-sm">Применить</button>
+                        <button class="text-orange-500">Сбросить фильтр</button>
+                    </div>
+                
             </form>
-            <div class="">
-                <p>Сортировать по дате</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <div class="flex justify-end items-center">
+                <p class="mr-3">Сортировать по дате</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F59E0B" class="w-4 h-4">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                   </svg>                  
             </div>
